@@ -1,7 +1,7 @@
 use std::time::{Duration, Instant};
 
 fn main() {
-    const NTH_PRIME: usize = 1_000_000_001;
+    const NTH_PRIME: usize = 100_000_001;
     const BIG_PRIME: u64 = 2_305_843_009_213_693_951;
 
     let sqrtcheck_start: Instant = Instant::now();
